@@ -54,12 +54,14 @@ function checkWinPattern(){
      }    
 }
 
+//for disable Boxes.
 function disabledBoxes() {   
     for (const box of boxes) {
         box.disabled = true;
     }
 }
 
+//for enableBoxes.
 function EnableBoxes() {   
     for (const box of boxes) {
         box.disabled = false;
@@ -67,17 +69,22 @@ function EnableBoxes() {
     }
 }
 
+//Show Winner.
 const showWinner = (Winner) => {
       msg.innerText = ` Congratulation Winner is ${Winner}`;
       msgContainer.classList.remove('hide');
       disabledBoxes();
 }
 
+//Reset button.
 const reset = () =>{
    turnO = true;
    EnableBoxes();
    msgContainer.classList.add('hide');
 }
+
+// draw message.
+
 
 newGame.addEventListener("click", reset);
 resetBtn.addEventListener("click", reset);
