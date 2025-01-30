@@ -23,7 +23,7 @@ cd tic-tac-toe
 # How to Play
 1. Launch the game.
 
-2. The game starts with Player X.
+2. The game starts with Player O.
 
 3. Take turns clicking or entering coordinates to place your mark (X or O) on the grid.
 
@@ -37,7 +37,6 @@ cd tic-tac-toe
  in this tic-tac-toe game i'm using basic HTML,CSS,JS.
 
 # future enhancements
-Add AI for single-player mode.
 
 Include score tracking.
 
