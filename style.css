@@ -90,10 +90,3 @@ h1{
 .hide{
     visibility: hidden;
 }
-
-@media (max-width : 532px) {
-   .box{
-    height: 15vmin;
-    width: 15vmin;
-   }
-}
